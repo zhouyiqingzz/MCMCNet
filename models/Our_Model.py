@@ -1,5 +1,5 @@
 from utils.losses import MseLoss, EntropyMinimization, MixLoss2d, dice_bce_loss
-from utils.Contrastive_Loss import ContrastivePatchLoss, ContrastiveBank, ConLoss
+from models.Contrastive_Loss import ContrastivePatchLoss, ContrastiveBank, ConLoss
 import torch
 import torch.nn as nn
 import numpy as np
